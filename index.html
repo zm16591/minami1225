@@ -8,6 +8,13 @@
   <script src="ex-6-6.js"></script>
   <script src="ex06-7.js"></script>
   <script src="ex-6-8.js"></script>
+  <script src="ex6-9.js"></script>
+  <script src="ex06-10.js"></script>
+  <script src="ex09-2.js"></script>
+  <script src="ex.06-11.js"></script>
+  <script src="ex-6-12.js"></script>
+   <script src="ex-6-13.js"></script>
+  
 </head>
   <body>
     <h1>変数の練習65</h1>
@@ -28,21 +35,65 @@
      <input type="button"value="アスカ"onclick="someone('アスカ');">
     <input type="button"value="シンジ"onclick="someone('シンジ');">
     <br>
-   <! --
+
+    
     
   <h1>JavaScriptによる変更の練習68</h1>
     <input type="button" value="あいさつ" onclick="sayhello68();">
     <input type="button" value="太郎" onclick="taro();">
     <input type="button" value="花子" onclick="hanako();">
     <p id="who">最初はworld</p>
--->
    
     
-    <h1>JavaScriptによるページの変更69</h1>
-    <div id="image1">
-      <input type="button"value="画像の変更"
-             onclick="imagechange1();">
-      <img src='./image/学長.jpg'id="logo"alt="josaiLong">
-      城西大学</div>
+    <h1>JavaScriptによるページの変更6-9</h1>
+   <div id="txt1">
+     <input type="button"value="テキストの変更" onclick="txtchange1();"
+     城西大学</div>
+     <div id="image1">
+      <input type="button"value="画像の変更"onclick="imagechange1();">
+      <img src='./image/josai.png'id="logo"alt="josaiLogo"></div>
+     <input type="button" value="前の画面に戻る"onclick="imgchange2();">
+     
+    </div>
+    
+    
+    
+   
+        <h1>タイマーイベントによる実行6-10</h1>
+<form name="timer"> 
+<input type="button" value="スタート" onclick="startfnc()">
+<br> 
+<input type="text" name="moji" size="30" value=""> 
+</form>
+<br>
+  
+<form> 
+  <input type="button" value="Timer" onclick="setTimeout('mes()',3000)"> 
+      
+      </form>
+      <br>
+      <h1>タイマーイベントによる実行6-11<h1>
+        <form name="timer2">
+          <input type="button" value="スタート"onclick="hyoji2()">
+          <br>
+          <input type="text" name="moji2" size="30"value=""></form>
+        <br>
+        
+        <h1>タイマーイベントによる実行6-12</h1>
+        <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
+        <img src='./image/josai.png' id="logo2" alt="josai Logo">
+        <br>
+        <h1>タイマーイベントによる実行6-13</h1>
+        <div id="back">
+          <input type="button" value="変更後3秒でまた戻る" onclick="ChangeImageAndBack();">
+          <img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange">
+        </div>
+        
+        
+        <h1>JavaScriptの変数とデバッガを理解09-2</h1>
+        <p>下のボタンを押すと数字が表示されます</p>
+        <p><input type="button" value="実行ボタン"onclik="addCount()"></p>
+        
+        
   </body>
 </html>
